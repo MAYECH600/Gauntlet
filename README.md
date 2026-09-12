@@ -27,8 +27,8 @@ Each run produces a pass/fail checklist summarizing the results.
 ## Installation
 
 ```bash
-git clone https://github.com/MAYECH600/session-security-test-suite.git
-cd session-security-test-suite
+git clone https://github.com/MAYECH600/Gauntlet.git
+cd Gauntlet
 pip install -r requirements.txt
 ```
 
@@ -43,7 +43,7 @@ playwright install
 Point the suite at a running instance of your app:
 
 ```bash
-pytest --base-url http://localhost:5000
+pytest --base-url http://localhost:5000 / http://yourURL.com
 ```
 
 Run a specific check category:

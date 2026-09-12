@@ -1,0 +1,8 @@
+base_url: http://localhost:5000
+login_endpoint: /api/admin/login
+logout_endpoint: /api/admin/logout
+protected_endpoint: /api/admin/profile
+state_changing_endpoint: /api/admin/account/update
+test_user:
+  email: Admin@hotel.com
+  password: admin1234
